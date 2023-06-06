@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFEA;
+    font-family: 'koho', sans-serif;
+    color: #202020;
+}
+
+
+header {
+    position: fixed;
+    width: calc(100% - 30px);
+    height: 100px;
+    left: 15px;
+    top: 5px;
+
+    padding: 10px;
+    
+    background: #FF5E5B;
+    box-shadow: 15px 15px 3px rgba(104, 39, 38, 0.25);
+    border-radius: 20px;
+
+    z-index: 999;
+}
+
+header .escrita {
+    position: absolute;
+    height: 62px;
+    
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 62px;
+
+    color: #202020;
+}
+
+
+header .divisoria {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+
+}
+
+img.imagem_da_sala {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100%;
+    top: 140px;
+
+    border-radius: 10px;
+}
+
+div.divis_pag {
+    display: flex;
+    position: relative;
+
+    justify-content: space-between;
+
+    width: calc(100% - 40px);
+
+    left: 20px;
+    top: 480px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px; 
+}
+
+div.retangulo_avaliativo {
+    display: flex;
+    position: relative;
+
+    width: calc(100% - 60px);
+    height: 780px;
+
+    left: 30px;
+    top: 1340px;
+
+    background: #83E4E4;
+    border-radius: 20px;
+}
+
+div.retangulo_avaliativo .imagens {
+    display: flex;
+    justify-content: space-between;
+
+    width: 35%;
+    height: 100%;
+    left: 0;
+
+    background-color: #00CECB;
+    border-radius: 20px;
+}
+
+div.retangulo_avaliativo .divisoria {
+    position: absolute;
+    width: 6px;
+    height: calc(100% - 12px);
+
+    left: 35%;
+    top: 6px;
+
+    background-color: #202020;
+
+    border-radius: 20px;
+}
+
+div.retangulo_avaliativo .comentarios {
+    position: absolute;
+    width: calc(100% - (35% + 6px));
+    height: 100%;
+
+    left: calc(35%  + 6px);
+    border-radius: 20px;
+}
+
+div.retangulo_avaliativo .comentarios .foto_perfil {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+
+    border-radius: 100%;
+    border: 2px solid #202020;
+
+    background-image: url(../IMG/perfil_anonimo.jpeg);
+    background-size: cover;
+
+    top: 1vw;
+    left: 1vw;    
+}
+
+div.retangulo_avaliativo .comentarios h1.nome {
+    position: absolute;
+
+    top: 5vh;
+    left: 13vw;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+}
+
+div.retangulo_avaliativo .comentarios h3.profissao {
+    position: absolute;
+
+    left: 13vw;
+    top: 10vh;
+
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+div.retangulo_avaliativo .comentarios #text {
+    position: absolute;
+
+    width: 75%;
+
+    left: 10vw;
+    top: 25vh;
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: justify;
+}
+
+div.retangulo_avaliativo .comentarios .button {
+    position: absolute;
+
+    width: 4vw;
+    height: 8vh;
+
+    right: 1.5vw;
+    bottom: 3vh;
+
+    background-color: #83E4E4;
+    background-image: url(../IMG/flecha.png);
+    background-position: center;
+    background-size: 42%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    border-radius: 100%;
+
+    border: 2px solid rgba(32, 32, 32, 0.5);
+} 
+
+div.fotos {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    top: 1350px;
+}
+
+div.fotos .foto {
+    width: 400px;
+    height: 400px;
+
+    border: 2px solid #202020;
+    border-radius: 100%;
+
+    background-position: 00px -35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: all 1s;
+}
+
+div.fotos .foto button {
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+
+    border: none;
+    border-radius: 100%;
+
+    color: #202020;
+    font-size: 30px;
+}
+
+.fotos .foto:hover button{
+    display: block;
+}
+
+.fotos .foto:hover {
+    width: 500px;
+    height: 500px;
+}
+
+.fotos .h {
+    background-image: url(../IMG/h.jpeg);
+}
+.fotos .h button {
+    background-color: #D8D8D8;
+}
+
+.fotos .v {
+    background-image: url(../IMG/v.jpeg);
+}
+.fotos .v button {
+    background-color: #FFED66;
+}
+
+.fotos .l {
+    background-image: url(../IMG/l.jpeg);
+}
+.fotos .l button {
+    background-color: #00CECB;
+}
+
+.fotos .m {
+    background-image: url(../IMG/m.jpeg);
+}
+.fotos .m button {
+    background-color: #FF5E5B;
+}
+
+.galeria {
+    display: flexbox;
+    justify-content: center;
+    position: relative;
+
+    width: calc(100% - 10vw);
+    left: 5vw;
+
+    top: 1350px;
+
+    background-color: #FFED66;
+    padding: 1vw;
+
+    border-radius: 20px;
+}
+
+.galeria h1 {
+    font-size: 40px;
+    
+    left: 2vw;
+    top: 1vh;
+}
+
+.galeria .fotos-galeria {
+    display: flex;
+    overflow-x: scroll;
+
+    border-radius: 10px;
+
+    top: 4vh;
+
+    width: 100%;
+    height: 500px;
+
+    scrollbar-width: thin;  
+}
+
+.galeria .fotos-galeria img {
+    
+    width: 100%;
+
+    border-radius: 10px;
+    border: 3px solid #202020;
+}
+
+.galeria .fotos-galeria video {
+    
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #202020;
+}
