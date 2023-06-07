@@ -10,6 +10,9 @@ body {
     color: #202020;
 }
 
+button, video {
+    cursor: pointer;
+}
 
 header {
     position: fixed;
@@ -71,6 +74,11 @@ div.divis_pag {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px; 
+}
+
+div.divis_pag img {
+    width: 40%;
+    height: 100%;
 }
 
 div.retangulo_avaliativo {
