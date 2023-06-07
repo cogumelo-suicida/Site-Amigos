@@ -1,158 +1,122 @@
-body {
+arset="UTF-8">
 
-    background-color: black;
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-    color: lemonchiffon;
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    font-family: Arial, Helvetica,sans-serif;
-
-}
-
-* {
-
-  box-sizing: border-box;
-
-  margin:0;
-
-  padding: 0;
-
-  }
-
-header{
-
-  font-family: 'Gill Sans', ' sans-serif,
-
-  position: fixed;
-
-  display: flex;
-
-  height: 100%;
-
-  height: 6vh;
-
-    background-color: purple;
-
-    border: 2px solid: black;
-
-    border-radius: 20px;
-
-    z-index: 999;
-
-  }
+  <title>Letícia</title>
 
   
 
-  header h1 {
+   
 
-    position: relative;
+  <!-- Custom Styles -->
 
-    left: 1vh;
-
-    font-size: 10vw;
-
-      	font-weight: 600;
-
-header{
-
-  position: relative;
-
-  width: 4vw;
-
-  height: 80%;
+  <link rel="stylesheet" href="style.css">
 
   
 
- right: 1vh;
+</head>
+
+<body>
 
   
 
-  background-color: #faf5d8;
+ <header>
 
-  background-image: volta.png;
+<br>
 
-  background-position: center;
+  <h1>Letícia</h1>
 
-  background-repeat: no-repeat;
+  </p>
 
-  background-size: 80%;
+ </header>
 
   
 
-  border: none;
+  <section class="sobre-mim">
 
-  border-radius: 15px;
+    <div class="flexdiv1">
 
-  }
+      <br>
 
- section.sobre-mim{
+      <br>
 
-    position: relative;
+      <h1>Sobre mim</h1>
 
-    display: ;
+      <br>
 
-    align-items: center;
+      <p> Apenas uma estudante da etec de kúthia citi sobrevivendo a cada dia.
 
-    padding: 5vw;
+      </p>
 
-    top: 8vh;
+      </div>
 
-    width: 100%;
+      
 
-}
+      <div class="eu.jpg"></div>
 
-section div.flexdiv1{
+  </section>
 
-    position: relative;
+  <br>
 
-    width: 100%;
+  <br>
 
-}
+  
 
-section h1 {}
+  <section class="hobbies">
 
-section p {
+    <div class="flexdiv1">
 
-    font-size: 2.5vw;
+      
 
-    font-weight: 0;
+    </h1>hobbies</h1>
 
-    width: 60vh;
+    <br>
 
-    text-align: justify;
+      <p> Alguns pequenos vícios, ultimamente fear and hunger parece um bom <p>jogo estilo rpg maker, tanto por sua lore e o estilo inspirado em Berseker.
 
-}
+      </p>
 
- section.hobbies{
+       </div>
 
-    position: relative;
+       
 
-	display: flex;
+       <<div>
 
-	align-items: center;
+         <h1> </h1>
 
-    padding: 5vw;
+       </div>>
 
-    top: 8vh;
+     
 
-    width: 100%;
+  
 
-}
+  
 
-section .img-jpg {
+  <script src="main.js"></script>
 
-    width: 35vw;
+</body>
 
-    height: 50vh;
+</html
 
-    background-image: url(https://photos.app.goo.gl/g7WkSGoc8WyYdcYW6);
+   
 
-    background-size: cover;
+   
 
-    background-position: right;
+   
 
-    border: 3px dotted #faf5d8;
 
-}
+
+
+
+ 
+ 
+
+
+    
+
+ 
  
 
 
