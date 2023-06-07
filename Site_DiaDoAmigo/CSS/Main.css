@@ -10,7 +10,7 @@ body {
     color: #202020;
 }
 
-button, video {
+button {
     cursor: pointer;
 }
 
