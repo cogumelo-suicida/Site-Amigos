@@ -1,4 +1,158 @@
+body {
 
+    background-color: black;
+
+    color: lemonchiffon;
+
+    font-family: Arial, Helvetica,sans-serif;
+
+}
+
+* {
+
+  box-sizing: border-box;
+
+  margin:0;
+
+  padding: 0;
+
+  }
+
+header{
+
+  font-family: 'Gill Sans', ' sans-serif,
+
+  position: fixed;
+
+  display: flex;
+
+  height: 100%;
+
+  height: 6vh;
+
+    background-color: purple;
+
+    border: 2px solid: black;
+
+    border-radius: 20px;
+
+    z-index: 999;
+
+  }
+
+  
+
+  header h1 {
+
+    position: relative;
+
+    left: 1vh;
+
+    font-size: 10vw;
+
+      	font-weight: 600;
+
+header{
+
+  position: relative;
+
+  width: 4vw;
+
+  height: 80%;
+
+  
+
+ right: 1vh;
+
+  
+
+  background-color: #faf5d8;
+
+  background-image: volta.png;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: 80%;
+
+  
+
+  border: none;
+
+  border-radius: 15px;
+
+  }
+
+ section.sobre-mim{
+
+    position: relative;
+
+    display: ;
+
+    align-items: center;
+
+    padding: 5vw;
+
+    top: 8vh;
+
+    width: 100%;
+
+}
+
+section div.flexdiv1{
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+section h1 {}
+
+section p {
+
+    font-size: 2.5vw;
+
+    font-weight: 0;
+
+    width: 60vh;
+
+    text-align: justify;
+
+}
+
+ section.hobbies{
+
+    position: relative;
+
+	display: flex;
+
+	align-items: center;
+
+    padding: 5vw;
+
+    top: 8vh;
+
+    width: 100%;
+
+}
+
+section .img-jpg {
+
+    width: 35vw;
+
+    height: 50vh;
+
+    background-image: url(https://photos.app.goo.gl/g7WkSGoc8WyYdcYW6);
+
+    background-size: cover;
+
+    background-position: right;
+
+    border: 3px dotted #faf5d8;
+
+}
  
 
 
