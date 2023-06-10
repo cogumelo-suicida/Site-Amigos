@@ -10,12 +10,17 @@ body {
     color: black;
 }
 
+.Letícia{
+
+}
+
 header{
-      height: 10vh;
-      display: flex;
-	justify-content: space-between;
+        height: 10vh;
+        display: flex;
+	justify-content: none;
 	background-color: rgb(22, 22, 22);
 	box-shadow: 0 0 1 rem black;
 
 }
+
 
