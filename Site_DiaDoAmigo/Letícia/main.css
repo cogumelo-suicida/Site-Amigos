@@ -23,4 +23,20 @@ header{
 
 }
 
+ section.Jogos{
+
+    position: relative;
+
+	display: flex;
+
+	align-items: center;
+
+    padding: 5vw;
+
+    top: 8vh;
+
+    width: 100%;
+
+}
+
 
