@@ -51,7 +51,7 @@ header{
 header button img{
     display: flex;
     height: 100%;
-    width: 46px;
+    width: 50px;
     border: none;
     background: none;
     position: absolute ;
@@ -59,23 +59,6 @@ header button img{
     justify-content: center;
     align-content: center;
     cursor: pointer;
-}
-.joguin{
-    width: 35vw;
-    height: 70vh;
-    background-image: url(./img/mine.jpg);
-    background-size: cover;
-    background-position: bottom right;
-   
-}
-
-.joguin2{
-    width: 35vw;
-    height: 70vh;
-    background-image: url(./img/medo.jpg);
-    background-size: cover;
-    background-position: bottom right;
-  
 }
 
 
