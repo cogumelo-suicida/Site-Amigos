@@ -28,7 +28,7 @@ header{
    	align-items: center;
     	width: 100%;
     	height: 6vh;
-    	background-color: yellow;
+    	background-color: #fff;
     	border-radius: 20px;
    	border: 3px solid #faf5d8;
     	z-index: 999;
@@ -37,7 +37,7 @@ header{
 .logo-imagem{
 	width:50px;
 	height:50px;
-	background-color: yellow,
+	background-color: #fff,
 	border-radius: 25px;	
 
 }
