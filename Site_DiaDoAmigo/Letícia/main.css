@@ -53,9 +53,9 @@ header button img{
 
 .eu: {
 	
-    width: 35vw;
-    height: 50vh;
-    background-image: ;
+    width: 50px;
+    height: 100%;
+    
     background-size: cover;
     background-position: right;
     border-radius: 16px;
