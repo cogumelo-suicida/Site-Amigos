@@ -1,7 +1,7 @@
 *{
 margin: 0;
 padding: 0;	
-box-sizing:border-box;
+
 }
 
 body {
@@ -11,6 +11,32 @@ body {
     
 }
 
+a{
+        color: #ff0986
+	text-decoration: none;
+}
+
+a:hover { 
+	opacity: 0.7;
+}
+
+.logo{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Helvetica, sans-serif;
+	background: #8b4313;
+	height: 8vh;
+	
+
+}
 header{
         width: 100%
 	height: 6vh;
@@ -22,13 +48,7 @@ header{
    
 }
 
-header{
-        margin: 100%;
-	text-decoration: none;
-	color: white;
-	font-size: 20px;
-	font-weight: rubik
-}
+
 
 
  section.sobre-mim{
