@@ -19,13 +19,14 @@ body {
 }
 
 header{
-        height: 10vh;
+        height: 6vh;
         display: flex;
 	justify-content: none;
 	background-color: rgb(199, 234, 70);
 	box-shadow: 0 0 1 rem black;
 
 }
+
 
  section.sobre-mim{
 
