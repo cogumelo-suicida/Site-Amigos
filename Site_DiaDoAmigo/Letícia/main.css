@@ -54,7 +54,8 @@ header button img{
     cursor: pointer;
 }
 
-.container2 img {
+.container {
+	size: 20px;
 	left: 75vw;
     position: absolute;
     width: 20%;
