@@ -21,11 +21,20 @@ body {
 
 header{
         height: 6vh;
+	position: fixed;
         display: flex;
 	justify-content: none;
 	background-color: rgb(199, 234, 70);
 	box-shadow: 0 0 1 rem black;
+   
+}
 
+header{
+        margin: 100%;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: rubik
 }
 
 
