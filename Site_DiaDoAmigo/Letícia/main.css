@@ -14,7 +14,7 @@ font-family: 'burik', sans-sefif;
 header h1 {
     position: center;
     left: 1vh;
-    font-size: 2vw;
+    font-size: 3vw;
 	font-weight: 200;
 }
 
@@ -22,8 +22,10 @@ header h1 {
 header{
   font-family: 'burik', sans-serif;
     position: fixed;
+	
+    justify-content: space-between;
     width: 100%;
-    height: 6vh;
+    height: 8vh;
     background-color: #0f0f1b;
     border: 1px solid #fafbf6;
     border-radius: 20px;
@@ -33,8 +35,7 @@ header{
 
 header{
   display:block;
-  justify-content: space-between;	
-
+  	
 }
 
 
