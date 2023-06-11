@@ -57,10 +57,11 @@ header button img{
     cursor: pointer;
 }
 
-.eu: {
+.container {
 	
     width: 50px;
     height: 100%;
+	display: flex;
     
     background-size: cover;
     background-position: right;
