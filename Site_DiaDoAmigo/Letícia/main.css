@@ -29,7 +29,7 @@ header{
 }
 
 }
-header button {
+header button img{
     display: flex;
     height: 100%;
     border: none;
@@ -39,6 +39,4 @@ header button {
     align-content: center;
     cursor: pointer;
 }
-header button img {
-    height: 100%;
-}
+
