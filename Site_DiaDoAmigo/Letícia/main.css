@@ -12,12 +12,12 @@ font-family: 'burik', sans-sefif;
 }
 
 header h1 {
-    position: relative;
-    left: 2vh;
+    position: center;
+    left: 6vh;
      font-size: 3vw;
 	font-weight: 200;
 	list-style:none;
-	top: 2px; 
+	right: 10px; 
    
     }
 
