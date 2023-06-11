@@ -32,9 +32,10 @@ nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-family: arial, sans-serif;
+	font-family: Rubik, sans-serif;
 	background: #8b4313;
 	height: 8vh;
+	weight: 66px;
 }
 
  section.sobre-mim{
