@@ -12,7 +12,7 @@ font-family: 'burik', sans-sefif;
 }
 
 header h1 {
-    position: center;
+    position: relative;
     left: 2vh;
      font-size: 3vw;
 	font-weight: 200;
