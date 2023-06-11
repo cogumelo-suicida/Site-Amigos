@@ -11,6 +11,14 @@ color: #faf5d8;
 font-family: 'burik', sans-sefif;  
 }
 
+header h1 {
+    position: relative;
+    left: 1vh;
+    font-size: 2.5vw;
+	font-weight: 600;
+}
+
+
 header{
   font-family: 'burik', sans-serif;
     position: fixed;
