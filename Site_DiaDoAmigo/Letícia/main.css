@@ -53,10 +53,14 @@ header button img{
 
 .eu: {
 	
-	position: absolute;
-	top: 1opx;
-	left: 10px;
+    width: 35vw;
+    height: 50vh;
+    background-image: ;
+    background-size: cover;
+    background-position: right;
+    border-radius: 16px;
 
 }
+
 
 
