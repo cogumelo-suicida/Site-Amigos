@@ -54,5 +54,17 @@ header button img{
     cursor: pointer;
 }
 
+.img-eu {
+	size: 20px;
+	left: 75vw;
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    border: 5px solid #565a75;
+    border-radius: 150px;
+    top: 30vh;
+}
+
+
 
 
