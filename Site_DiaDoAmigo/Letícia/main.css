@@ -63,13 +63,16 @@ header button img{
     align-content: center;
     cursor: pointer;
 }
-
+.joguin{
     width: 35vw;
     height: 70vh;
     background-image: url(./img/sax.jpeg);
     background-size: cover;
     background-position: bottom right;
     border: 3px dotted #faf5d8;
+}
+
+
 
 
 
