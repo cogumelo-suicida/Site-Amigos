@@ -17,6 +17,11 @@ header h1 {
      font-size: 3vw;
 	font-weight: 200;
 	list-style:none;
+	   
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
