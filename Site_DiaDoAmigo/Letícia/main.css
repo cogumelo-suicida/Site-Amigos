@@ -66,12 +66,20 @@ header button img{
 .joguin{
     width: 35vw;
     height: 70vh;
-    background-image: url(./img/sax.jpeg);
+    background-image: url(./img/mine.jpg);
     background-size: cover;
     background-position: bottom right;
     border: 3px dotted #faf5d8;
 }
 
+.joguin2{
+    width: 35vw;
+    height: 70vh;
+    background-image: url(./img/medo.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    border: 3px dotted #faf5d8;
+}
 
 
 
