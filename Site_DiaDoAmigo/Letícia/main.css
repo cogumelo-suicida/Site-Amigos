@@ -23,6 +23,11 @@ header{
 
 }
 
+header{
+  display:block;
+
+}
+
 }
 header button {
     display: flex;
