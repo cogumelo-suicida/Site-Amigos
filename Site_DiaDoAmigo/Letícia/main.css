@@ -39,7 +39,7 @@ header{
 
 header button img{
     display: flex;
-    height: 46px;
+    height: 100%;
     width: 46px;
     border: none;
     background: none;
