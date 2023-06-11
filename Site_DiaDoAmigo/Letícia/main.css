@@ -54,11 +54,12 @@ header button img{
     cursor: pointer;
 }
 
-.container {
+.eu-eu {
 	size: 20px;
 	left: 75vw;
     position: absolute;
-    width: 20%;
+    height: 56px;
+    width: 56px;
     border: 5px solid #565a75;
     border-radius: 150px;
     top: 30vh;
