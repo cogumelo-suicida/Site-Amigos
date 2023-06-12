@@ -60,6 +60,11 @@ header button img{
     cursor: pointer;
 }
 
+.nome{
+	weight: 10vh; 
+        width: 100%;
+	position: center;	
+}
 
 .bloco img{
        height: 100px;
