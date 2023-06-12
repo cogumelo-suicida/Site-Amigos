@@ -61,6 +61,10 @@ header button img{
     cursor: pointer;
 }
 
+.bloco img{
+height: 80px;
+	width: 80px;
+}
 
 
 
