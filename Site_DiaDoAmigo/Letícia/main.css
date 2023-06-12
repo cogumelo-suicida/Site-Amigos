@@ -17,8 +17,7 @@ header h1 {
      font-size: 4vw;
 	font-weight: 300;
 	list-style:none;
-	
-   
+	  
     }
 
 h1{
@@ -60,6 +59,7 @@ header button img{
     align-content: center;
     cursor: pointer;
 }
+
 
 .bloco img{
        height: 100px;
