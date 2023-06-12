@@ -55,7 +55,7 @@ header button img{
     background: none;
     position: absolute ;
     background-position: top right;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     cursor: pointer;
 }
