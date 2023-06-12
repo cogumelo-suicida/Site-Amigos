@@ -26,6 +26,9 @@ display: block;
    
 }
 
+.posito{
+position: center;
+}
 
 header{
   font-family: 'burik', sans-serif;
