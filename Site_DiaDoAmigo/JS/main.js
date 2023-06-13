@@ -42,13 +42,13 @@ const json = {
         13: {
             "p": "\"Olha o Bob Marley!\", afirma um de nossos colegas"
         },
-        13: {
+        14: {
             "p": "\"Friends é uma bosta\", frase dita por Johnson pouco antes de ser arremessado pela janela do Lab 3"
         }
     }
 }
 
-const id = Math.floor(Math.random() * 12)
+const id = Math.floor(Math.random() * 14)
 
 
 //console.log(json.comentario[id].p)
