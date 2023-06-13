@@ -112,10 +112,6 @@ section .img-sax {
     width: 35vw;
 	height: 70vh;
 
-    background-image: url(./img/sax.jpeg);
-    background-size: cover;
-    background-position: bottom right;
-
     border: 3px dotted #faf5d8;
 }
 
@@ -172,13 +168,13 @@ section.final {
     width: 100%;
 }
 
-.codepen {
+iframe.codepen {
     height: 800px; 
     box-sizing: border-box; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    border: 2px solid; 
+    border: 2px dotted #faf5d8; 
     margin: 1em 0; 
     padding: 1em;
 }
