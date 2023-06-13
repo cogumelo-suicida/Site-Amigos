@@ -36,7 +36,7 @@ header{
 	
     justify-content: space-between;
     width: 100%;
-    height: 12vh;
+    height: 10vh;
     background-color: #0f0f1b;
     border: 1px solid #fafbf6;
     border-radius: 15px;
@@ -57,7 +57,7 @@ header button img{
     border: none;
     background: none;
     position: absolute ;
-    background-position: top right;
+    background-position: top left;
     justify-content: center;
     align-content: center;
     cursor: pointer;
