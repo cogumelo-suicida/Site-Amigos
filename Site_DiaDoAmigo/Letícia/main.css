@@ -12,7 +12,7 @@ font-family: 'burik', sans-sefif;
 }
 
 header h1 {
-    position: center;
+    position: absolute;
     left: 1vh;
      font-size: 4vw;
 	font-weight: 300;
@@ -32,7 +32,7 @@ position: center;
 
 header{
   font-family: 'burik', sans-serif;
-    position: fixed;
+    position: absolute;
 	
     justify-content: space-between;
     width: 100%;
@@ -66,7 +66,7 @@ header button img{
 .nome{
 	weight: 2vh; 
         width: 100%;
-	position: center;	
+	position: absolute;	
 }
 
 .bloco img{
