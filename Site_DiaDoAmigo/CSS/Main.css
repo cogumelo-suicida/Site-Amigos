@@ -95,14 +95,10 @@ div.retangulo_avaliativo {
     border-radius: 20px;
 }
 
-div.retangulo_avaliativo .imagens {
-    display: flex;
-    justify-content: space-between;
-
+div.retangulo_avaliativo iframe {
     width: 35%;
     height: 100%;
-    left: 0;
-
+    
     background-color: #00CECB;
     border-radius: 20px;
 }
