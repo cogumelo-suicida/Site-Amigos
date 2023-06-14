@@ -61,6 +61,7 @@ header button img{
     justify-content: center;
     align-content: center;
     cursor: pointer;
+	padding: right top;
 }
 
 .nome{
@@ -74,12 +75,16 @@ header button img{
 	width: 120px;
 	border-radius: 10px;
 	border: 2px solid #ffffff;
+	margin: auto;
 	
 }
 
 .flexdiv{
-        position: center;
+        position: flex;
 	background-position: space-between;
+	margin: auto;
+	padding:40px;
+	
 	
 }
 
