@@ -28,7 +28,7 @@ display: block;
 
 .container{
 margin: auto;
-	padding: 40px;
+	padding: 4px;
 	background-color: rgb (22,22,22);
 }
 
@@ -70,6 +70,7 @@ header button img{
 	weight: 2vh; 
         width: 100%;
 	position:fixed;	
+	float: right;
 }
 
 .bloco img{
