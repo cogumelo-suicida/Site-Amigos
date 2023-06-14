@@ -79,11 +79,11 @@ header button img{
 
 .flexdiv{
         position: center;
-	
+	background-position: space-between;
 	
 }
 
-.eu img{
+.eu{
 	position: flex;
 	
 	height:50;
