@@ -56,12 +56,12 @@ header button img{
     width: 46px;
     border: none;
     background: none;
-    position: fixed ;
+    position: absolute ;
     background-position: top left;
     justify-content: center;
     align-content: center;
     cursor: pointer;
-	padding: right top;
+	;
 }
 
 .nome{
