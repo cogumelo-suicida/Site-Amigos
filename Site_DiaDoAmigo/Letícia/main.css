@@ -6,9 +6,9 @@
 }
 
 body{
-background-color: rgb(22,22,22);
+background-color: rgb (22,22,22);
 color: #faf5d8;
-font-family: 'burik', sans-sefif;  
+font-family: 'burik', 'sans-sefif';  
 }
 
 header h1 {
@@ -27,7 +27,9 @@ display: block;
 }
 
 posito{
-position: center;
+margin: auto;
+	padding: 4opx;
+	background-color: none;
 }
 
 header{
