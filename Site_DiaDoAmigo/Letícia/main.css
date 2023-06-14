@@ -83,7 +83,7 @@ header button img{
 
 .flexdiv{
         position: flex;
-	background-position: center;
+	background-position: flex;
 	margin: auto;
 	padding:40px;
 	
