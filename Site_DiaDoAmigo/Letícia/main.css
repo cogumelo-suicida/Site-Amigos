@@ -83,11 +83,11 @@ header button img{
 	
 }
 
-.eu{
+.eu img{
 	position: top left;
 	
-	height:200;
-	width:200;
+	height:50;
+	width:50;
 	border-radius:10px;
 	border: 2px solid #ffffff;
 	
