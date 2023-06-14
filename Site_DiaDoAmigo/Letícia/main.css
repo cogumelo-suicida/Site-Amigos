@@ -6,7 +6,7 @@
 }
 
 body{
-background-color: #ffffff;
+background-color: rgb (22, 22, 22);
 color: #faf5d8;
 font-family: 'burik', 'sans-sefif';  
 }
@@ -60,7 +60,7 @@ header button img{
     justify-content: center;
     align-content: center;
     cursor: pointer;
-	;
+	
 }
 
 .nome{
@@ -81,7 +81,7 @@ header button img{
 
 .flexdiv{
         position: flex;
-	background-position: flex;
+	
 	margin: auto;
 	padding:40px;
 	
@@ -96,6 +96,15 @@ header button img{
 	border-radius:10px;
 	
 	border: 2px solid #ffffff;
+	 display: flex;
+   
+   
+      background: none;
+      position: absolute ;
+      background-position: top left;
+      justify-content: center;
+      align-content: center;
+      cursor: pointer;
 	
 	
 	
