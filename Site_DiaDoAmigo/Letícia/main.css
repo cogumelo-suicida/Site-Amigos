@@ -84,7 +84,7 @@ header button img{
 }
 
 .eu img{
-	position: top left;
+	position: flex;
 	
 	height:50;
 	width:50;
