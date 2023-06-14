@@ -26,7 +26,7 @@ display: block;
    
 }
 
-posito{
+.container{
 margin: auto;
 	padding: 4opx;
 	background-color: none;
@@ -83,7 +83,7 @@ header button img{
 
 .flexdiv{
         position: flex;
-	background-position: space-between;
+	background-position: center;
 	margin: auto;
 	padding:40px;
 	
